@@ -35,7 +35,7 @@ source("code/source_functions.R")
 
   ## ADD YOUR ANALYSES HERE ####
     by_forest <- ggplot(aes(x=soil_hum_prop, y=canopy_perc_fixed), data=canopy)+
-      geom_point(aes(colour=as.factor(site_id)), size=1)+
+      geom_point(aes(colour=as.factor(site_id)), size=100)+
       facet_wrap(~forest_type)
 
     by_forest
