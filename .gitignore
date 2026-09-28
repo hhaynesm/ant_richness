@@ -49,4 +49,4 @@ po/*~
 rsconnect/
 
 #example from Natalie
-data/ant_richness.csv
+data/*
